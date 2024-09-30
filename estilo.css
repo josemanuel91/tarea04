@@ -9,7 +9,7 @@
 }
 
 body{
-    background-image: url(imagenes/sw_fondo.jpg);
+    background-image: url(imagenes/68b53e3d8e69f644b19b510918767876.jpg);
 }
 #contenedor{
     width:90%;    
@@ -20,7 +20,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;  
 }
 #contenido{
     display: flex;
@@ -67,3 +67,6 @@ encabezado, contenido y pie de la web
 #cabecera,#contenido,#pie{
     border:1px solid white;
 }
+
+
+
