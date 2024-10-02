@@ -20,7 +20,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center; 
+    border-radius: 3%; 
 }
 #contenido{
     display: flex;
@@ -29,15 +30,17 @@ body{
     flex-wrap: wrap;   
     padding:10px;
     margin:10px;
+    border-radius: 3%;
 }
 img{
     max-width: 100%;
-    /* border:1px solid white; */
+    
     display: block;
     margin: auto;
+    border-radius: 6px;
 }
 .episodio{
-    /* border:1px solid white; */
+
     width: 30%;
     padding:5px;    
 }
@@ -52,6 +55,7 @@ h1,h2,h3,h4{
 h1,h3,h4{color:var(--color4);}
 h2{
     color: var(--color1);
+    text-shadow: 3px 2px 3px;
 }
 p{
     text-align:justify ;
@@ -61,11 +65,19 @@ a{
     color: #F2F2F2;
 }
 
-/* colocaremos border blancos para observar las secciones
-encabezado, contenido y pie de la web
-*/
 #cabecera,#contenido,#pie{
     border:1px solid white;
+}
+
+#logo{
+    width: 20%;
+}
+#search{
+    width: 20%;
+}
+
+#pie{
+    border-radius: 6px;
 }
 
 
