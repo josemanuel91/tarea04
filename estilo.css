@@ -38,6 +38,8 @@ img{
     display: block;
     margin: auto;
     border-radius: 6px;
+    box-shadow: 5px 5px 15px white;
+
 }
 .episodio{
 
